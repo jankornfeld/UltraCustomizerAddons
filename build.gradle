@@ -1,0 +1,41 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'spigotmc-repo'
+        url = 'https://hub.spigotmc.org/nexus/content/groups/public/'
+    }
+}
+
+dependencies {
+    compileOnly files("libs\\UltraCustomizer.jar")
+    compileOnly 'org.projectlombok:lombok:1.18.38'
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        maven {
+            name = 'spigotmc-repo'
+            url = 'https://hub.spigotmc.org/nexus/content/groups/public/'
+        }
+    }
+}
+
+subprojects {
+    apply plugin: 'java'
+    repositories {
+        maven { url 'https://repo.bluecolored.de/releases' }
+    }
+    dependencies {
+        compileOnly files(project(":").file("libs\\UltraCustomizer.jar"))
+        compileOnly 'org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT'
+        compileOnly 'org.projectlombok:lombok:1.18.38'
+    }
+}
