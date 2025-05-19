@@ -4,6 +4,7 @@
     <option name="moduleMapping">
       <map>
         <entry key="UltraCustomizerAddons.ReadTextWithDelay" value="UltraCustomizerAddons.ReadTxtFileTimed" />
+        <entry key="UltraCustomizerAddons.RegionClearer" value="UltraCustomizerAddons.RegionReset" />
       </map>
     </option>
   </component>

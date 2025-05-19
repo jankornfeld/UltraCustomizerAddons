@@ -2,3 +2,5 @@ rootProject.name = 'UltraCustomizerAddons'
 include 'ReadTextWithDelay'
 include 'TypeConverter'
 include 'PlayerPointsChecks'
+include 'RegionClearer'
+

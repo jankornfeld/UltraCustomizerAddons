@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/PlayerPointsChecks" />
             <option value="$PROJECT_DIR$/ReadTextWithDelay" />
+            <option value="$PROJECT_DIR$/RegionClearer" />
             <option value="$PROJECT_DIR$/TypeConverter" />
           </set>
         </option>

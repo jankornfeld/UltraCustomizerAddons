@@ -1,0 +1,6 @@
+name: RegionClearer
+version: 1.0.0
+author: MyNameIsJan
+depends:
+  - WorldGuard
+  - WorldEdit
